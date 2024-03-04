@@ -11,29 +11,6 @@ Before you begin, ensure you have the following installed:
 - Access to a Kubernetes cluster (Minikube, kind, or any cloud-based Kubernetes service)
 - `kubectl` command-line tool (for testing purposes)
 
-## Installation
-
-Follow these steps to set up the project environment:
-
-1. **Clone the Repository**
-
-    ```bash
-    git clone https://github.com/yourusername/k8s-controller.git
-    cd k8s-controller
-    ```
-
-2. **Create and Activate a Virtual Environment**
-
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-
-3. **Install Required Packages**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## Configuration
 
@@ -58,8 +35,3 @@ kubectl run test-pod --image=nginx --restart=Never
 # Delete the Pod
 kubectl delete pod test-pod
 ```
-
-
-### Notes for Customization:
-
-- **Repository URL**: Replace `https://github.com/yourusername/k8s-controller.git` with the actual URL of your GitHub repository.
