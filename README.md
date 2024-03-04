@@ -18,8 +18,8 @@ Follow these steps to set up the project environment:
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/yourusername/kubernetes-pod-event-controller.git
-    cd kubernetes-pod-event-controller
+    git clone https://github.com/yourusername/k8s-controller.git
+    cd k8s-controller
     ```
 
 2. **Create and Activate a Virtual Environment**
@@ -62,4 +62,4 @@ kubectl delete pod test-pod
 
 ### Notes for Customization:
 
-- **Repository URL**: Replace `https://github.com/yourusername/kubernetes-pod-event-controller.git` with the actual URL of your GitHub repository.
+- **Repository URL**: Replace `https://github.com/yourusername/k8s-controller.git` with the actual URL of your GitHub repository.
